@@ -1,0 +1,214 @@
+[
+  {
+    "id": "freefire",
+    "title": "FF diamonds - 50",
+    "price": 0.45,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 0.99
+  },
+  {
+    "id": "freefire",
+    "title": "FF diamonds - 100",
+    "price": 1.45,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 1.99
+  },
+  {
+    "id": "freefire",
+    "title": "FF diamonds - 200",
+    "price": 2.45,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 2.60
+  },
+    {
+    "id": "freefire",
+    "title": "FF diamonds - 300",
+    "price": 2.70,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 3.50
+  },
+    {
+    "id": "freefire",
+    "title": "FF diamonds - 500",
+    "price": 6.99,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 7.99
+  },
+    {
+    "id": "freefire",
+    "title": "FF diamonds - 1000",
+    "price": 12.99,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 13.99
+  },
+      {
+    "id": "freefire",
+    "title": "FF diamonds - 1000",
+    "price": 12.99,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 13.99
+  },
+      {
+    "id": "freefire",
+    "title": "FF diamonds - 2200",
+    "price": 24.50,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 25.99
+  },
+      {
+    "id": "freefire",
+    "title": "FF diamonds - boyah pass",
+    "price": 3.49,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 4.99
+  },
+      {
+    "id": "freefire",
+    "title": "FF diamonds - we",
+    "price": 12.99,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 13.99
+  },
+
+
+
+
+    {
+    "id": "pubg",
+    "title": "PUBG uc - 30",
+    "price": 0.40,
+    "image": "./images/pubg.jpeg",
+    "oldPrice": 0.99
+  },
+      {
+    "id": "pubg",
+    "title": "PUBG uc - 60",
+    "price": 0.99,
+    "image": "./images/pubg.jpeg",
+    "oldPrice": 1.45
+  },
+      {
+    "id": "pubg",
+    "title": "PUBG uc - 300",
+    "price": 3.99,
+    "image": "./images/pubg.jpeg",
+    "oldPrice": 4.99
+  },
+      {
+    "id": "pubg",
+    "title": "PUBG uc - 600",
+    "price": 7.49,
+    "image": "./images/pubg.jpeg",
+    "oldPrice": 8.99
+  },
+      {
+    "id": "pubg",
+    "title": "PUBG uc - 1700",
+    "price": 21.99,
+    "image": "./images/pubg.jpeg",
+    "oldPrice": 24.99
+  },
+
+
+      {
+    "id": "fifa",
+    "title": "fifa  - 80 + fc",
+    "price": 0.49,
+    "image": "./images/fifa.jpg",
+    "oldPrice": 0.99
+  },
+       {
+    "id": "fifa",
+    "title": "fifa  - 200 fc",
+    "price": 1.49,
+    "image": "./images/fifa.jpg",
+    "oldPrice": 1.99
+  } ,      {
+    "id": "fifa",
+    "title": "fifa  - 1000 fc",
+    "price": 5.49,
+    "image": "./images/fifa.jpg",
+    "oldPrice": 5.99
+  },
+         {
+    "id": "fifa",
+    "title": "fifa  - 2000 fc",
+    "price": 10.45,
+    "image": "./images/fifa.jpg",
+    "oldPrice": 11.99
+  },
+
+         {
+    "id": "codm",
+    "title": "codm  - 80 + 80 cp ",
+    "price": 1.49,
+    "image": "./images/codm.jpeg",
+    "oldPrice": 1.99
+  },
+          {
+    "id": "codm",
+    "title": "codm  - 800 cp ",
+    "price": 5.49,
+    "image": "./images/codm.jpeg",
+    "oldPrice": 6.99
+  },
+          {
+    "id": "codm",
+    "title": "codm  - 1600 cp ",
+    "price": 10.49,
+    "image": "./images/codm.jpeg",
+    "oldPrice": 11.99
+  },
+          {
+    "id": "codm",
+    "title": "codm  - 4000 cp ",
+    "price": 24.49,
+    "image": "./images/codm.jpeg",
+    "oldPrice": 1.99
+  },
+
+
+        {
+    "id": "bs",
+    "title": "codm  - 50 gold",
+    "price": 0.99,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 1.45
+  },
+         {
+    "id": "bs",
+    "title": "codm  - 100 gold",
+    "price": 0.99,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 1.99
+  },
+         {
+    "id": "bs",
+    "title": "codm  - 300 gold",
+    "price": 2.99,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 3.99
+  },
+         {
+    "id": "bs",
+    "title": "codm  - 500 gold",
+    "price": 5.45,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 6.99
+  },
+         {
+    "id": "bs",
+    "title": "codm  - 1000 gold",
+    "price": 9.99,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 10.99
+  }
+
+
+
+
+
+]
+
+
+

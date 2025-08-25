@@ -1,0 +1,296 @@
+/* start of css */
+/* start of positions */
+.flex{
+    display: flex;
+}
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.a-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.y-center{
+    display: flex;
+    align-items: start;
+}
+.d-line{
+    display: inline-block;
+}
+.l-des{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+   
+}
+.p_fixed{
+    position: fixed;
+ 
+}
+.p-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.p-relative{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.sticky-up{
+    position: sticky;
+    top: 0;
+}
+
+.sticky-bottom{
+    position: sticky;
+    top: 0;
+}
+.g20{
+    gap: 20px;
+}
+/* end of positions */
+/* margin and pading */
+.pt20{
+    padding-top: -20px;
+}
+.p20{
+    padding: 20px;
+}
+.m20{
+    margin: 20px;
+
+    
+}
+.p30{
+    padding: 30px;
+}
+.p50{
+    padding: 50px;
+}
+.m50{
+    margin: 50px;
+}
+.p80{
+    padding: 80px;
+}
+.m80{
+    margin: 80px;
+}
+.p100{
+    padding: 100px;
+}
+.m100{
+    margin: 100px;
+}
+.p0{
+    padding: 0;
+}
+.p5{
+    padding: 5px;
+}
+.p150{
+    padding: 150px;
+}
+.m150{
+    margin: 150px;
+}
+.p200{
+    padding: 200px;
+}
+.m200{
+    margin: 200px;
+}
+.ml120{
+    margin-left: 120px;
+}
+.p120{
+    padding: 120px;
+}
+.mt0{
+    margin-top: 0;
+}
+.p15{
+    padding: 15px;
+}
+.p10{
+    padding: 10px;
+}
+.p5{
+    padding: 5px;
+}
+/* end of m & p */
+/* styles */
+.br20{
+    border-radius: 20px;
+}
+.br50{
+    border-radius: 50%;
+}
+
+/* end of styles */
+/*start of backgrounds and colors */
+.bg-white{
+    background-color: white;
+}
+.bg-basic{
+    background-color: #051a2b;
+}
+.bg-sec{
+    background-color: aqua;
+}
+.c-white{
+    color: white;
+}
+.bg-primary{
+    background-color: #051a2b;
+}
+.bg-sec2{
+    background-color: #05242b;
+}
+.c-gray{
+    color:rgb(199, 187, 187)
+}
+/* end of bg and colors */
+/* widht an hight */
+.w50{
+    width: 50px;
+}
+.h50{
+    height: 50px;
+}
+.h80{
+    height: 80px;
+}
+.w80{
+    width: 80px;
+}
+.w150{
+    width: 150px;
+}
+.h80{
+    height: 80px;
+}
+.h150{
+    height: 150px;
+}
+.h200{
+    height: 200px;
+
+}
+.w200{
+    width: 200px;
+}
+.h300{
+    height: 300px;
+}
+.w300{
+    width: 300px;
+}
+.h600{
+    height: 600px;
+}
+.h1200{
+    height: 1200px;
+}
+.w100p{
+    width: 100%;
+}
+.h100p{
+    height: 100%;
+}
+.h50p{
+    height: 50%;
+
+}
+.w50p{
+    width: 50%;
+}
+.w-max{
+    max-width: max-content;
+}
+.h-max{
+    height: 100vh;
+}
+.w-oto{
+    width: auto;
+}
+.full-page {
+    width: 100vw;
+    height: 100vh;
+ 
+
+
+}
+
+.w-content{
+    height: 100%;;
+}
+.r-layout{
+    display: flex;
+    max-width: 80%;
+    height: auto;
+}
+/* end of w and h */
+
+/* sizes */
+.s20p{
+    font-size: 20px;
+}
+.s30p{
+    font-size: 30px;
+}
+.s50p{
+    font-size: 50px;
+}
+.s80p{
+    font-size: 80px;
+}
+.s100p{
+    font-size: 100px;
+}
+.s150p{
+    font-size: 150px;
+}
+/* end of sizes */
+
+/* effects and animations */
+.slide-top {
+	-webkit-animation: slide-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-bottom {
+    -webkit-animation: slide-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.slide-in-top {
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.fade-in {
+	-webkit-animation: fade-in 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}

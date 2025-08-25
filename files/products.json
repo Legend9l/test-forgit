@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pubg_60uc",
+    "title": "PUBG Mobile - 60 UC",
+    "price": 0.99,
+    "image": "./images/pubg.jpeg",
+    "oldPrice": 1.49
+  },
+  {
+    "id": "steam_150",
+    "title": "FF diamonds - 100 + 50 bonus",
+    "price": 1.99,
+    "image": "./images/freefire.jpeg",
+    "oldPrice": 2.99
+  },
+  {
+    "id": "fifa_10",
+    "title": "fifa mobile - 60c",
+    "price": 0.99,
+    "image": "./images/fifa.jpg",
+    "oldPrice": 1.49
+  },
+    {
+    "id": "codm_100",
+    "title": "codm - 100c",
+    "price": 1.99,
+    "image": "./images/codm.jpeg",
+    "oldPrice": 2.99
+  },
+    {
+    "id": "blod_10",
+    "title": "blodstrike - 100c",
+    "price": 1.99,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 2.99
+  },
+    {
+    "id": "blod_10",
+    "title": "blodstrike - 100c",
+    "price": 1.99,
+    "image": "./images/bs.jpeg",
+    "oldPrice": 2.99
+  }
+]

@@ -1,0 +1,239 @@
+{
+  "categories": {
+    "general": {
+      "name": "General Questions",
+      "icon": "help",
+      "questions": [
+        {
+          "id": "welcome",
+          "question": "Hello, hi, hey, greetings",
+          "response": "Hello! 👋 Welcome to Luxe Shop support! I'm here to help you with anything you need - from ordering game keys and top-ups to payment issues and technical problems. What can I assist you with today? 🎮",
+          "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "start", "begin"]
+        },
+        {
+          "id": "store_info",
+          "question": "What is Luxe Shop?",
+          "response": "🎮 **Luxe Shop** is your premium destination for digital gaming products! We specialize in:\n\n• **Game Keys** - Steam, Epic, Origin, and more\n• **Top-Up Cards** - Mobile games, console credits\n• **In-Game Currency** - Coins, gems, battle passes\n\n✅ **Why choose us?**\n• Instant delivery ⚡\n• Competitive prices 💰\n• 24/7 support 🕐\n• Secure payments 🔒\n• 100% authentic products ✅\n\nWhat type of gaming product are you looking for?",
+          "keywords": ["what is", "about", "store", "company", "business", "luxe shop", "who are you"]
+        },
+        {
+          "id": "hours",
+          "question": "What are your business hours?",
+          "response": "🕐 **We're here for you 24/7!**\n\n• **Automated Support**: Available instantly, anytime\n• **Human Support**: Extended hours for complex issues\n• **Order Processing**: 24/7 for digital products\n• **Payment Processing**: Always active\n\n💡 **Pro Tip**: Digital products are delivered instantly, so you can shop anytime! Need help right now? I'm here to assist! 🚀",
+          "keywords": ["hours", "business hours", "open", "closed", "time", "schedule", "when", "available"]
+        }
+      ]
+    },
+    "orders": {
+      "name": "Order & Purchase",
+      "icon": "shopping_cart",
+      "questions": [
+        {
+          "id": "order_status",
+          "question": "How can I check my order status?",
+          "response": "To check your order status, please provide your order number or the email address you used for the purchase. I'll be happy to look up the details for you and provide an update on your order.",
+          "keywords": ["order status", "track order", "where is my order", "order tracking", "order number"]
+        },
+        {
+          "id": "order_help",
+          "question": "I need help with my order",
+          "response": "I'd be happy to help you with your order! Could you please provide your order number or the email address you used for the purchase? This will help me access your order details and assist you better.",
+          "keywords": ["order help", "order issue", "order problem", "order support", "purchase help"]
+        },
+        {
+          "id": "order_cancellation",
+          "question": "Can I cancel my order?",
+          "response": "Order cancellation depends on the status of your order. Digital items are typically delivered instantly, making cancellation difficult. However, if your order hasn't been processed yet, we may be able to help. Please provide your order number for assistance.",
+          "keywords": ["cancel order", "order cancellation", "cancel purchase", "refund request"]
+        },
+        {
+          "id": "order_confirmation",
+          "question": "I didn't receive order confirmation",
+          "response": "If you haven't received an order confirmation, please check your spam/junk folder first. If you still can't find it, provide me with your email address and I'll help you locate your order or resend the confirmation.",
+          "keywords": ["no confirmation", "order confirmation", "email confirmation", "receipt"]
+        }
+      ]
+    },
+    "payment": {
+      "name": "Payment & Billing",
+      "icon": "payment",
+      "questions": [
+        {
+          "id": "payment_methods",
+          "question": "What payment methods do you accept?",
+          "response": "💳 **We accept multiple secure payment methods:**\n\n• **PayPal** - Fast and secure\n• **Credit/Debit Cards** - Visa, Mastercard, American Express\n• **Orange Money** - Mobile payment\n• **Cash Plus** - Local payment solution\n\n🔒 **Security Features:**\n• SSL encryption\n• PCI DSS compliant\n• No card data stored\n• Secure payment gateways\n\n💡 **Need help choosing?** PayPal is recommended for international customers, while Orange Money and Cash Plus are great for local payments!",
+          "keywords": ["payment methods", "how to pay", "payment options", "paypal", "credit card", "orange money", "cash plus", "visa", "mastercard", "amex"]
+        },
+        {
+          "id": "payment_issue",
+          "question": "I'm having payment issues",
+          "response": "For payment issues, please check if your payment method is valid and has sufficient funds. If the problem persists, please share your order details and I'll investigate further. Common issues include expired cards or insufficient funds.",
+          "keywords": ["payment issue", "payment problem", "payment failed", "payment error", "card declined"]
+        },
+        {
+          "id": "billing",
+          "question": "Billing and invoice questions",
+          "response": "For billing and invoice questions, please provide your order number or email address. I can help you with invoice requests, billing disputes, or any other billing-related concerns.",
+          "keywords": ["billing", "invoice", "receipt", "bill", "charge"]
+        },
+        {
+          "id": "refund_policy",
+          "question": "What is your refund policy?",
+          "response": "Our refund policy allows returns within 7 days of purchase for unused items. Digital items are non-refundable once delivered. Please provide your order number and reason for return, and I'll process your request according to our policy.",
+          "keywords": ["refund", "refund policy", "return", "return policy", "money back"]
+        }
+      ]
+    },
+    "delivery": {
+      "name": "Delivery & Shipping",
+      "icon": "local_shipping",
+      "questions": [
+        {
+          "id": "delivery_time",
+          "question": "How long does delivery take?",
+          "response": "Delivery times vary by product type. Digital items (game keys, top-ups) are delivered instantly via email or account activation. Physical items take 3-7 business days depending on your location. What type of product are you inquiring about?",
+          "keywords": ["delivery time", "shipping time", "how long", "when will I receive", "delivery"]
+        },
+        {
+          "id": "delivery_method",
+          "question": "How do I receive my order?",
+          "response": "Digital items are delivered via email or direct account activation. You'll receive an email with your game key or top-up code, or we'll activate it directly on your gaming account. Physical items are shipped to your provided address.",
+          "keywords": ["how to receive", "delivery method", "email delivery", "account activation"]
+        },
+        {
+          "id": "delivery_issue",
+          "question": "I haven't received my order",
+          "response": "If you haven't received your order, please check your email (including spam folder) for digital items. For physical items, I can help track your shipment. Please provide your order number so I can assist you further.",
+          "keywords": ["not received", "missing order", "delivery issue", "where is my order"]
+        }
+      ]
+    },
+    "technical": {
+      "name": "Technical Support",
+      "icon": "build",
+      "questions": [
+        {
+          "id": "technical_issue",
+          "question": "I'm experiencing technical problems",
+          "response": "I understand you're experiencing technical difficulties. Could you please describe the specific issue you're encountering? This will help me provide a more targeted solution. Common issues include website loading problems or payment processing errors.",
+          "keywords": ["technical issue", "technical problem", "website problem", "error", "not working", "broken"]
+        },
+        {
+          "id": "key_not_working",
+          "question": "My game key is not working",
+          "response": "If your game key isn't working, please check that you've entered it correctly without extra spaces. Some keys are region-specific or have activation requirements. Please provide your order number and I'll help you resolve this issue.",
+          "keywords": ["key not working", "invalid key", "key error", "activation failed", "game key problem"]
+        },
+        {
+          "id": "topup_issue",
+          "question": "Top-up not appearing in my account",
+          "response": "If your top-up isn't appearing in your account, please allow a few minutes for processing. Some games require a restart or refresh. If the issue persists, please provide your order number and I'll investigate the problem.",
+          "keywords": ["topup not working", "topup issue", "not appearing", "account balance", "top-up problem"]
+        },
+        {
+          "id": "website_issue",
+          "question": "Website is not loading properly",
+          "response": "If our website isn't loading properly, try refreshing the page or clearing your browser cache. If the problem continues, please let me know what specific error you're seeing and I'll help you resolve it.",
+          "keywords": ["website not loading", "page not working", "site down", "loading issue", "browser problem"]
+        }
+      ]
+    },
+    "products": {
+      "name": "Products & Services",
+      "icon": "inventory",
+      "questions": [
+        {
+          "id": "product_info",
+          "question": "Tell me about your products",
+          "response": "We offer a wide range of digital gaming products including game keys for popular titles, top-up cards for mobile games, and in-game currency. All our products are authentic and come with instant delivery. What specific product are you interested in?",
+          "keywords": ["products", "what do you sell", "services", "offerings", "catalog"]
+        },
+        {
+          "id": "price_inquiry",
+          "question": "Pricing and cost questions",
+          "response": "Our prices are competitive and updated regularly. If you're seeing a different price than expected, please refresh the page or let me know the specific product you're interested in. We also offer discounts and special deals regularly.",
+          "keywords": ["price", "cost", "how much", "pricing", "expensive", "cheap"]
+        },
+        {
+          "id": "product_availability",
+          "question": "Is a product available?",
+          "response": "To check product availability, please let me know which specific product you're interested in. Our inventory is updated in real-time, and I can help you find alternatives if your preferred item is out of stock.",
+          "keywords": ["available", "in stock", "out of stock", "availability", "sold out"]
+        },
+        {
+          "id": "product_compatibility",
+          "question": "Will this work with my device/game?",
+          "response": "Product compatibility depends on the specific item and your device/game. Please let me know which product you're interested in and your device/game details, and I'll help you determine compatibility.",
+          "keywords": ["compatible", "compatibility", "work with", "device", "game", "platform"]
+        }
+      ]
+    },
+    "security": {
+      "name": "Security & Privacy",
+      "icon": "security",
+      "questions": [
+        {
+          "id": "security_concerns",
+          "question": "Is it safe to buy from you?",
+          "response": "Yes, it's completely safe to buy from us! We use industry-standard SSL encryption to protect your payment information. We never store your credit card details, and all transactions are processed through secure payment gateways.",
+          "keywords": ["safe", "secure", "trusted", "reliable", "legitimate", "scam"]
+        },
+        {
+          "id": "privacy_policy",
+          "question": "How do you protect my privacy?",
+          "response": "We take your privacy seriously. We only collect information necessary for order processing and never share your personal data with third parties. Our privacy policy outlines how we protect and use your information.",
+          "keywords": ["privacy", "data protection", "personal information", "confidential"]
+        },
+        {
+          "id": "account_security",
+          "question": "Account security questions",
+          "response": "Your account security is important to us. We use secure authentication and never ask for sensitive information through chat. If you have security concerns, please contact us through official channels.",
+          "keywords": ["account security", "password", "login", "hacked", "security breach"]
+        }
+      ]
+    },
+    "promotions": {
+      "name": "Promotions & Deals",
+      "icon": "local_offer",
+      "questions": [
+        {
+          "id": "current_deals",
+          "question": "What deals are currently available?",
+          "response": "We regularly offer exciting deals and promotions! Currently, we have summer sales, bonus top-ups, and special discounts on game keys. Check our homepage for the latest offers, or let me know what you're looking for!",
+          "keywords": ["deals", "promotions", "sales", "discounts", "offers", "special"]
+        },
+        {
+          "id": "coupon_codes",
+          "question": "Do you have coupon codes?",
+          "response": "Yes! We offer various coupon codes and promotional discounts. These are typically announced on our website, social media, or through our newsletter. Let me know what you're purchasing and I can check for available discounts.",
+          "keywords": ["coupon", "promo code", "discount code", "voucher", "code"]
+        },
+        {
+          "id": "loyalty_program",
+          "question": "Do you have a loyalty program?",
+          "response": "We're working on implementing a loyalty program! Currently, we offer regular promotions and special deals for our customers. Stay tuned for updates on our loyalty rewards system.",
+          "keywords": ["loyalty", "rewards", "points", "member", "vip"]
+        }
+      ]
+    }
+  },
+  "quick_responses": {
+    "default": [
+      "Thank you for your message! I'm here to help. Could you please provide more details about your inquiry?",
+      "I understand your concern. Let me help you resolve this issue. Could you share more specific information?",
+      "Thanks for reaching out! I'll do my best to assist you. What specific help do you need?",
+      "I appreciate you contacting us. Let me gather some information to better assist you with your request."
+    ],
+    "escalation": [
+      "I understand this is important to you. Let me connect you with a specialist who can better assist with your specific situation.",
+      "This requires special attention. I'll escalate your case to our senior support team for immediate assistance.",
+      "For this complex issue, I recommend speaking with our technical specialist. Let me arrange that for you."
+    ]
+  },
+  "settings": {
+    "typing_delay_min": 1500,
+    "typing_delay_max": 3500,
+    "response_timeout": 10000,
+    "max_questions_per_session": 10
+  }
+} 

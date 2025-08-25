@@ -1,0 +1,26 @@
+[
+  {
+    "id": "keys",
+    "title": "nba 2k25 - (xbox)",
+    "price": 16.99,
+    "image": "./images/pubg.jpeg",
+    "stock": 0,
+    "oldPrice": 20.49
+  },
+  {
+    "id": "keys",
+    "title": "minecraft - (pc)",
+    "price": 12.99,
+    "image": "./images/freefire.jpeg",
+    "stock": 2,
+    "oldPrice": 20.99
+  },
+  {
+    "id": "keys",
+    "title": "fifa - (pc)",
+    "price": 9.99,
+    "image": "./images/fifa.jpg",
+    "stock": 0,
+    "oldPrice": 19.49
+  }
+]

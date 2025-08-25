@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="framework.css" />
+  <title>Top-Up & Game Keys Store</title>
+  <script src="script.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <header class="p20">
+    <nav class="navbar">
+      <h1 class="site-name">Luxe Shop</h1>
+      <ul class="nav-links">
+        <li><a href="/top-up">Top-Up</a></li>
+       
+        <li><a href="#" style="color: rgb(64, 64, 230);">Deals</a></li>
+        <li><a href="/keys">Keys</a></li>
+                        <li><a href="order.html" style="color: #facc15;">🛒 Cart</a></li>
+                <li><a href="dashboard.html" style="color: #facc15;">📊 Dashboard</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+    <section class="news-slider">
+    <div class="news-track">
+      <div class="news-item">🔥 New deals available for summer sale!</div>
+      <div class="news-item">🎁 Free key giveaway happening this weekend!</div>
+      <div class="news-item">⚡ Get 20% bonus on every Top-Up over $50!</div>
+    </div>
+  </section>
+
+  <!-- Banner Image Slider -->
+  <section class="banner-slider" aria-label="Promotional Banners">
+    <img src="./images/offer1.png" alt="Banner 1" class="banner-slide active" />
+    <img src="./images/codm.jpeg" alt="Banner 2" class="banner-slide" />
+    <img src="./images/bs.jpeg" alt="Banner 3" class="banner-slide" />
+    
+    <!-- Navigation Arrows -->
+    <button class="banner-nav prev" onclick="changeSlide(-1)" aria-label="Previous slide">
+      <span class="material-icons">chevron_left</span>
+    </button>
+    <button class="banner-nav next" onclick="changeSlide(1)" aria-label="Next slide">
+      <span class="material-icons">chevron_right</span>
+    </button>
+    
+    <!-- Navigation Dots -->
+    <div class="banner-dots">
+      <span class="banner-dot active" onclick="goToSlide(0)" aria-label="Go to slide 1"></span>
+      <span class="banner-dot" onclick="goToSlide(1)" aria-label="Go to slide 2"></span>
+      <span class="banner-dot" onclick="goToSlide(2)" aria-label="Go to slide 3"></span>
+    </div>
+  </section>
+
+  <!-- News Slider -->
+
+
+  <main class="p20">
+    
+    <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="products" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+    <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="keys" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+  <a href="#" class="support-float" title="Live Support" onclick="openSupportPopup()">
+  <span>💬</span>
+</a>
+  </main>
+
+  <!-- Live Support Popup -->
+  <div id="supportPopup" class="support-popup">
+    <div class="support-popup-content">
+      <div class="support-header">
+        <h3><span class="material-icons">support_agent</span> Live Support</h3>
+        <button class="close-btn" onclick="closeSupportPopup()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+      
+      <div class="support-body">
+        <div class="support-status">
+          <div class="status-indicator online"></div>
+          <span>Support Agent Online</span>
+        </div>
+        
+        <div class="chat-container">
+          <div class="chat-messages" id="chatMessages">
+            <div class="message agent">
+              <div class="message-content">
+                <p>Hello! 👋 Welcome to Luxe Shop support. How can I help you today?</p>
+                <span class="message-time">Just now</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message..." onkeypress="handleMessageKeyPress(event)">
+            <button onclick="sendMessage()">
+              <span class="material-icons">send</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="quick-actions">
+          <h4>Quick Actions:</h4>
+          <div class="quick-buttons">
+            <button class="quick-btn" onclick="sendQuickMessage('I need help with my order')">
+              <span class="material-icons">shopping_cart</span>
+              Order Help
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('Payment issue')">
+              <span class="material-icons">payment</span>
+              Payment Issue
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('What payment methods do you accept?')">
+              <span class="material-icons">credit_card</span>
+              Payment Methods
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('How long does delivery take?')">
+              <span class="material-icons">local_shipping</span>
+              Delivery Time
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('Is it safe to buy from you?')">
+              <span class="material-icons">security</span>
+              Security
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('What deals are currently available?')">
+              <span class="material-icons">local_offer</span>
+              Current Deals
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    
+
+    <div class="footer-column">
+      <h4>Payment Methods</h4>
+      <div class="payment-icons">
+        <img src="images/paypal.png" alt="PayPal" />
+        <img src="images/orange.png" alt="Orange" />
+        <img src="images/credit-card.png" alt="credit-card" />
+        <img src="images/cashplus.jpeg" alt="cashplus" />
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="mailto:support@example.com">Contact Us</a></li>
+        <li><a href="#">Live Chat</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Refund Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><span class="material-icons" id="icons">facebook</span></a>
+        <a href="#"><span class="material-icons" id="icons">instagram</span></a>
+        <a href="#"><span class="material-icons" id="icons">discord</span></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h3>Luxe Shop</h3>
+      <p>Top-Up & Game Keys Store. Fast, Secure, Trusted.</p>
+      <p>&copy; 2025 Luxe Shop. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Authentication UI Components -->
+<!-- Login Modal -->
+<div id="loginModal" class="auth-modal">
+  <div class="auth-modal-content">
+    <div class="auth-header">
+      <h2><span class="material-icons">login</span> Login</h2>
+      <button class="close-btn" onclick="closeAuthModal('loginModal')">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+    
+    <form id="loginForm" class="auth-form">
+      <div class="form-group">
+        <label for="loginEmail">Email</label>
+        <input type="email" id="loginEmail" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" required>
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">
+          <span class="material-icons">login</span>
+          Login
+        </button>
+      </div>
+      
+      <div class="auth-links">
+        <p>Don't have an account? <a href="#" onclick="switchAuthModal('loginModal', 'registerModal')">Register</a></p>
+        <p><a href="#" onclick="showForgotPassword()">Forgot Password?</a></p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Register Modal -->
+<div id="registerModal" class="auth-modal">
+  <div class="auth-modal-content">
+    <div class="auth-header">
+      <h2><span class="material-icons">person_add</span> Register</h2>
+      <button class="close-btn" onclick="closeAuthModal('registerModal')">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+    
+    <form id="registerForm" class="auth-form">
+      <div class="form-group">
+        <label for="registerName">Full Name</label>
+        <input type="text" id="registerName" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="registerEmail">Email</label>
+        <input type="email" id="registerEmail" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="registerPhone">Phone Number</label>
+        <input type="tel" id="registerPhone" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="registerPassword">Password</label>
+        <input type="password" id="registerPassword" required minlength="6">
+      </div>
+      
+      <div class="form-group">
+        <label for="registerConfirmPassword">Confirm Password</label>
+        <input type="password" id="registerConfirmPassword" required minlength="6">
+      </div>
+      
+      <div class="form-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="registerTerms" required>
+          <span class="checkmark"></span>
+          I agree to the <a href="#" onclick="showTerms()">Terms & Conditions</a>
+        </label>
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">
+          <span class="material-icons">person_add</span>
+          Register
+        </button>
+      </div>
+      
+      <div class="auth-links">
+        <p>Already have an account? <a href="#" onclick="switchAuthModal('registerModal', 'loginModal')">Login</a></p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- User Profile Modal -->
+<div id="profileModal" class="auth-modal">
+  <div class="auth-modal-content">
+    <div class="auth-header">
+      <h2><span class="material-icons">account_circle</span> My Profile</h2>
+      <button class="close-btn" onclick="closeAuthModal('profileModal')">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+    
+    <div class="profile-content">
+      <div class="profile-section">
+        <h3>Personal Information</h3>
+        <form id="profileForm" class="auth-form">
+          <div class="form-group">
+            <label for="profileName">Full Name</label>
+            <input type="text" id="profileName" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="profileEmail">Email</label>
+            <input type="email" id="profileEmail" readonly>
+          </div>
+          
+          <div class="form-group">
+            <label for="profilePhone">Phone Number</label>
+            <input type="tel" id="profilePhone" required>
+          </div>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">
+              <span class="material-icons">save</span>
+              Update Profile
+            </button>
+          </div>
+        </form>
+      </div>
+      
+      <div class="profile-section">
+        <h3>Account Actions</h3>
+        <div class="profile-actions">
+          <button class="btn-secondary" onclick="showOrderHistory()">
+            <span class="material-icons">history</span>
+            Order History
+          </button>
+          <button class="btn-secondary" onclick="changePassword()">
+            <span class="material-icons">lock</span>
+            Change Password
+          </button>
+          <button class="btn-danger" onclick="deleteAccount()">
+            <span class="material-icons">delete_forever</span>
+            Delete Account
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Order History Modal -->
+<div id="orderHistoryModal" class="auth-modal">
+  <div class="auth-modal-content">
+    <div class="auth-header">
+      <h2><span class="material-icons">history</span> Order History</h2>
+      <button class="close-btn" onclick="closeAuthModal('orderHistoryModal')">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+    
+    <div class="order-history-content">
+      <div id="orderHistoryList" class="order-list">
+        <!-- Orders will be loaded here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Forgot Password Modal -->
+<div id="forgotPasswordModal" class="auth-modal">
+  <div class="auth-modal-content">
+    <div class="auth-header">
+      <h2><span class="material-icons">lock_reset</span> Reset Password</h2>
+      <button class="close-btn" onclick="closeAuthModal('forgotPasswordModal')">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+    
+    <form id="forgotPasswordForm" class="auth-form">
+      <div class="form-group">
+        <label for="resetEmail">Email</label>
+        <input type="email" id="resetEmail" required>
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">
+          <span class="material-icons">send</span>
+          Send Reset Link
+        </button>
+      </div>
+      
+      <div class="auth-links">
+        <p><a href="#" onclick="switchAuthModal('forgotPasswordModal', 'loginModal')">Back to Login</a></p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js"></script>
+
+<!-- Firebase Configuration -->
+<script src="firebase-config.js"></script>
+
+<!-- Authentication System -->
+<script src="auth.js"></script>
+<script src="auth-functions.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="framework.css" />
+  <title>Top-Up & Game Keys Store</title>
+  <script src="script.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <header class="p20">
+    <nav class="navbar">
+      <h1 class="site-name">Luxe Shop</h1>
+      <ul class="nav-links">
+        <li><a href="#"  style="color: rgb(64, 64, 230);">Top-Up</a></li>
+       
+        <li><a href="/index">Deals</a></li>
+        <li><a href="/keys">Keys</a></li>
+                        <li><a href="order.html" style="color: #facc15;">🛒 Cart</a></li>
+                <li><a href="dashboard.html" style="color: #facc15;">📊 Dashboard</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+    <!-- <section class="news-slider">
+    <div class="news-track">
+      <div class="news-item">🔥 New deals available for summer sale!</div>
+      <div class="news-item">🎁 Free key giveaway happening this weekend!</div>
+      <div class="news-item">⚡ Get 20% bonus on every Top-Up over $50!</div>
+    </div>
+  </section>
+
+
+  <section class="banner-slider" aria-label="Promotional Banners">
+    <img src="./images/offer1.png" alt="Banner 1" class="banner-slide active" />
+    <img src="./images/codm.jpeg" alt="Banner 2" class="banner-slide" />
+    <img src="./images/bs.jpeg" alt="Banner 3" class="banner-slide" />
+  </section> -->
+
+  <!-- News Slider -->
+
+
+  <main class="p20">
+    
+    <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="fifa-products" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+    <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="freefire-products" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+    <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="pubg-products" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+    <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="codm-products" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+       <h2><span class="material-icons titles">local_fire_department</span> HOT deals :</h2>
+    <section id="bs-products" class="product-container">
+      <!-- Products will be loaded here -->
+    </section>
+
+  <a href="#" class="support-float" title="Live Support" onclick="openSupportPopup()">
+    <span>💬</span>
+  </a>
+  </main>
+
+  <!-- Live Support Popup -->
+  <div id="supportPopup" class="support-popup">
+    <div class="support-popup-content">
+      <div class="support-header">
+        <h3><span class="material-icons">support_agent</span> Live Support</h3>
+        <button class="close-btn" onclick="closeSupportPopup()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+      
+      <div class="support-body">
+        <div class="support-status">
+          <div class="status-indicator online"></div>
+          <span>Support Agent Online</span>
+        </div>
+        
+        <div class="chat-container">
+          <div class="chat-messages" id="chatMessages">
+            <div class="message agent">
+              <div class="message-content">
+                <p>Hello! 👋 Welcome to Luxe Shop support. How can I help you today?</p>
+                <span class="message-time">Just now</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message..." onkeypress="handleMessageKeyPress(event)">
+            <button onclick="sendMessage()">
+              <span class="material-icons">send</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="quick-actions">
+          <h4>Quick Actions:</h4>
+          <div class="quick-buttons">
+            <button class="quick-btn" onclick="sendQuickMessage('I need help with my order')">
+              <span class="material-icons">shopping_cart</span>
+              Order Help
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('Payment issue')">
+              <span class="material-icons">payment</span>
+              Payment Issue
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('Top-up not working')">
+              <span class="material-icons">phone_android</span>
+              Top-Up Issue
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('What payment methods do you accept?')">
+              <span class="material-icons">credit_card</span>
+              Payment Methods
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('How long does delivery take?')">
+              <span class="material-icons">local_shipping</span>
+              Delivery Time
+            </button>
+            <button class="quick-btn" onclick="sendQuickMessage('Is it safe to buy from you?')">
+              <span class="material-icons">security</span>
+              Security
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+  <div class="footer-content">
+    
+
+    <div class="footer-column">
+      <h4>Payment Methods</h4>
+      <div class="payment-icons">
+        <img src="images/paypal.png" alt="PayPal" />
+        <img src="images/orange.png" alt="Orange" />
+        <img src="images/credit-card.png" alt="credit-card" />
+        <img src="images/cashplus.jpeg" alt="cashplus" />
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="mailto:support@example.com">Contact Us</a></li>
+        <li><a href="#">Live Chat</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Refund Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><span class="material-icons" id="icons">facebook</span></a>
+        <a href="#"><span class="material-icons" id="icons"></span></a>
+        <a href="#"><span class="material-icons" id="icons">discord</span></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h3>Luxe Shop</h3>
+      <p>Top-Up & Game Keys Store. Fast, Secure, Trusted.</p>
+      <p>&copy; 2025 Luxe Shop. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  
+
+</body>
+
+
+</html>
